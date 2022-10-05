@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.page {
+    width: 750px;
+    margin: 138px auto 0px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.bk-header {
+    width: 100%;
+    height: 436px;
+    background: #535971;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Staatliches', sans-serif;
+}
+
+header {
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 60px; 
+    font-weight: 400;   
+
+    margin-bottom: 18px;
+}
+
+header p {
+    width: 417px;
+    height: 46px;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    margin-bottom: 58px;
+}
+
+#form-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 64px;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+    color: #535971;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+fieldset {
+    border: none;
+}
+
+form h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 32px;
+}
+
+form h2 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    margin-bottom: 8px;
+}
+
+.input-wrapper {    
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.name .input-wrapper {
+    width: 100%;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule > div:nth-child(1) {
+    width: 300px;
+    margin-right: 32px;
+}
+
+.schedule > div:nth-child(2) {
+    margin-right: 10px;
+}
+
+.schedule > div:nth-child(2),
+.schedule > div:nth-child(3) {
+    width: 140px;
+}
+
+label {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+input {
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    color: #C1BCCC;
+    padding: 0 18px 0 18px;
+}
+
+span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+}
+
+span:hover {
+    color: #87848f;
+}
+
+footer {
+    
+    background: #535971;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 366px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+}
+
+.button {
+    height: 55px;
+    background: #FF5374;
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Staatliches';    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: #fd607f;
+}
